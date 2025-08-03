@@ -871,7 +871,7 @@ with q1_tab:
     with col2:
         st.markdown(f"""
         <div class="analysis-card">
-            <div class="analysis-title">🕌 موسم العمرة</div>
+            <div class="analysis-title"> موسم العمرة</div>
             <div class="analysis-text">
                 شهد فبراير أعلى معدل للمعتمرين (120,930) بزيادة 36% عن يناير، 
                 مما يعكس الذروة الموسمية لأداء العمرة في هذه الفترة.
@@ -1227,7 +1227,7 @@ with q4_tab:
         st.plotly_chart(fig_q4_chart, use_container_width=True)
     # Displaying clinic visits and emergency cases 
     with col2:
-        st.markdown('<h4 style="color: var(--text-primary); text-align: center;">🏥 خدمات العيادة والطوارئ - الربع الرابع</h4>', unsafe_allow_html=True)
+        st.markdown('<h4 style="color: var(--text-primary); text-align: center;"> خدمات العيادة والطوارئ - الربع الرابع</h4>', unsafe_allow_html=True)
         fig_q4_medical = make_subplots(specs=[[{"secondary_y": True}]])
         fig_q4_medical.add_trace(
             go.Bar(
@@ -1725,4 +1725,5 @@ st.markdown("""
 """.format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")), unsafe_allow_html=True)
 # Storing the updated DataFrame in session state
 st.session_state.health_df = st.session_state.health_df.fillna(0)
+
 
