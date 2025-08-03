@@ -239,6 +239,6 @@ Last Updated: August 3, 2025
 - The file is encoded in UTF-8 to support Arabic text correctly.
 - If you meant a different format (e.g., HTML, JSON, or another structure), please specify the format or provide an example.
 - If you want the file to be written to a specific directory or with additional content, let me know.
-- The repository URL (`https://github.com/your-repo/najran-health-dashboard.git`) and contact email (`[email@example.com]`) are placeholders. Replace them with actual values if needed.
+- The repository URL (`https://github.com/your-repo/najran-health-dashboard.git`) and contact email (`[hgereino@gmail.com]`) are placeholders. Replace them with actual values if needed.
 
 Let me know if you need further assistance or a different approach!
