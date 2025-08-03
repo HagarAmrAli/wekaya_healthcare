@@ -1,7 +1,4 @@
-Based on your request to "write file by format" and the context of the previous interactions, I assume you want the README content written to a file in Markdown format (`README.md`) as per the professional README provided for the Najran Public Health Authority Dashboard. Below, I'll provide the README content in a format suitable for saving as a `README.md` file. If you meant a different format or file type, please clarify, and I can adjust accordingly.
 
-### README.md Content
-```markdown
 # Najran Public Health Authority Dashboard
 
 ## Overview
